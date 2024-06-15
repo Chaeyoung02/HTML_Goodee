@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "jjang";
+  src: url("../resources/온글잎\ 짱구.ttf");
+}
+* {
+  font-family: "jjang";
+  font-size: 35px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-image: url("../resources/image.png");
+  background-size: cover;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.hole {
+  background-color: rgb(252, 252, 252);
+}
+.header > .header_first {
+  padding: 3%;
+  display: flex;
+  align-items: center;
+}
+.header > .header_first > .nav_logo {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  height: 150px;
+}
+
+.nav_logo > .logo {
+  margin: 0 auto;
+  width: 20%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+}
+.logo > img {
+  max-width: 100%; /* 이미지 크기 조정 */
+  height: auto;
+}
+
+.bar {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(92, 92, 92, 0.151);
+  border-bottom: 1px solid rgba(92, 92, 92, 0.151);
+}
+.bar > div {
+  font-family: "jjang", serif;
+}
