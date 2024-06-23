@@ -31,12 +31,12 @@ body {
   padding: 20px;
 }
 .container {
-  font-size: 35px;
-  display: inline;
+  display: block;
   width: 100%;
   margin-right: 10%;
 }
 header {
+  font-size: 2vw;
   /* display: flex;
   align-items: center;
   flex-direction: column; */
@@ -61,8 +61,9 @@ header {
   align-items: center;
 }
 .intro-a {
+  font-size: 2.5vw;
   margin-top: 50%;
-  margin-bottom: -30%;
+  margin-bottom: -20%;
 }
 .connection {
   display: flex;
@@ -70,7 +71,7 @@ header {
 }
 .connection > a {
   text-decoration: none;
-  margin-right: 20px;
+  margin-right: 5px;
   color: white;
 }
 
@@ -98,19 +99,122 @@ section h3 {
 section div {
   margin-bottom: 20px;
 }
-.about {
-  background-color: rgba(128, 0, 128, 0.445);
-  display: block;
-}
 
 .my-img {
-  width: 20%;
-  padding: 100px;
+  width: 100%;
   flex-direction: column;
   display: flex;
-  align-items: center;
+
+  text-align: center;
 }
+.my-img > img {
+  width: 10vw;
+}
+/* .my-intro {
+  width: 100%;
+  display: flex;
+} */
 .my-intro {
   display: flex;
-  background-color: blue;
+  justify-content: space-between;
+  margin: 20px;
+  border-bottom: 1cap dashed rgba(255, 255, 255, 0.116);
+}
+
+.my-intro-b {
+  width: 70vw;
+  padding-left: 30px;
+}
+.my-intro-a {
+  margin: 2%;
+  margin-right: 0;
+  width: 30vw;
+  display: block;
+  justify-content: end;
+}
+
+.my-intro-b h3 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.b-b,
+.a-a {
+  padding: 10px;
+}
+
+.my-img img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.a-a {
+  text-align: center;
+  font-size: 20px;
+}
+.b-b {
+  font-size: 30px;
+  width: 100%;
+}
+
+/*
+.a-a > p {
+  margin-top: -10px;
+}
+.b-b {
+  margin-top: -50px;
+} */
+.advantage-a > h3 {
+  font-size: 40px;
+}
+.advantage-a > h4 {
+  font-size: 30px;
+}
+.advantage-a > p {
+  font-size: 30px;
+}
+
+.sections {
+  display: inline- block;
+  margin: 30px;
+}
+.advantage {
+  margin: 20px;
+  border-bottom: 1cap dashed rgba(255, 255, 255, 0.116);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.advantage-b > h4 {
+  font-size: 30px;
+}
+.advantage-b > p {
+  font-size: 30px;
+}
+.advantage-c > h4 {
+  font-size: 30px;
+}
+.advantage-c > p {
+  font-size: 30px;
+}
+
+.disadvantage {
+  margin: 20px;
+
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.disadvantage-a > h3 {
+  font-size: 40px;
+}
+.disadvantage-a > h4 {
+  font-size: 30px;
+}
+.disadvantage-a > p {
+  font-size: 30px;
+}
+.disadvantage-b > h4 {
+  font-size: 30px;
+}
+.disadvantage-b > p {
+  font-size: 30px;
 }

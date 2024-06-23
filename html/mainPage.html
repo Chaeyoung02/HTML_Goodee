@@ -9,48 +9,49 @@
     </style>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
     <div class="nav-bar">
-        <div class ="nav-a">
+        <div class="nav-a">
             <a href="#"> skills</a>
         </div>
-        <div class ="nav-b">
+        <div class="nav-b">
             <a href="#"> contect</a>
         </div>
-        <div class ="nav-c">
+        <div class="nav-c">
             <a href="#"> etc</a>
         </div>
-    </div> 
+    </div>
     <div class="container">
         <header>
             <div class="header">
                 <div>
                     <a href="mainPage.html">
-                        <img src="../resources/미모티콘.jpg"width="500px" class="me-image">
+                        <img src="../resource/미모티콘.jpg" style = "width: 20.5vw;" class="me-image">
                     </a>
                 </div>
                 <div class="intro">
-                    <h3 class ="intro-a">BackEnd Developer</h3>
-                    <h1 class = "intro-b">김채영</h1>
+                    <h3 class="intro-a">BackEnd Developer</h3>
+                    <h1 class="intro-b" style="font-size: 4.5vw;">김채영</h1>
                 </div>
 
-            </div>         
-            <div class ="connection" style="color: white;">
-                <a href = "https://www.google.com/intl/ko/gmail/about/">
-                    <span class="material-symbols-outlined"style="font-size: 30px;">
-                    mail
+            </div>
+            <div class="connection" style="color: white;">
+                <a href="https://www.google.com/intl/ko/gmail/about/">
+                    <span class="material-symbols-outlined" style="font-size: 1.5vw; ">
+                        mail
                     </span>
                 </a>
-                <button id ="scroll" type="button">   
-                    <span class="material-symbols-outlined" style="font-size: 30px;">
+                <input id="scroll" type="button">
+                    <span class="material-symbols-outlined" style="font-size: 1.5vw; margin-top: 1px;">
                         expand_circle_down
                     </span>
-                </button>
+                </input>
                 <script>
-                    document.getElementById('scroll').addEventListener('click',function () {
+                    document.getElementById('scroll').addEventListener('click', function () {
                         window.scrollTo({
                             top: document.body.scrollHeight,
                             behavior: 'smooth'
@@ -58,78 +59,117 @@
                     });
                 </script>
             </div>
-              
+
         </header>
-        <div>
-            <section class ="about">
-                <div>
-                    <h3>About Me</h3>
-                </div>
-                <div class =" Z
-                3
-                36">
-                    <div class="my-intro">
-                        <p>2002.1.5</p>
-                        <p>졸업 : 2024.02</p>
-                        <p>안녕하세요 저는 백엔드 개발자 김채영입니다!
-                            <br>
-                            다양한 프로젝트를 통해 실무 경험을 쌓았으며, 새로운 기술을 배우는 것을 좋아합니다.<br>
-                            개발에서 개인의 역량도 중요하지만, 협업능력 또한 굉장히 중요하고 필요한 능력이라고 생각합니다.<br>
-                            저는 백엔드 개발자가 되기위해 관련 역량 공부는 물론, 의사소통하는 방법에 대해 고민하고 저만의 방법을 만들어왔습니다.
-                        </p>
+        <div class="sections">
+            <section class="about">
+
+                <div class="my-intro">
+                    <div class="my-intro-b">
+                        <div>
+                            <h3>About Me</h3>
+                        </div>
+                        <div class="b-b">
+                            <p>안녕하세요 저는 백엔드 개발자 김채영입니다!
+                                <br>
+                                다양한 프로젝트를 통해 실무 경험을 쌓았으며, 새로운 기술을 배우는 것을 좋아합니다.<br>
+                                개발에서 개인의 역량도 중요하지만, 협업능력 또한 굉장히 중요하고 필요한 능력이라고 생각합니다.<br>
+                                백엔드 개발자가 되기위해 관련 역량 공부는 물론, 의사소통하는 방법에 대해 고민하고 저만의 방법을 만들어왔습니다.
+                                <br>
+                                앞으로는 끊임없이 공부하며, 새로운 것을 접하는 것에 두려움 없이 경험이 헛되이지 않도록 최선을 다하겠습니다~!
+                            </p>
+
+                        </div>
                     </div>
-                    <div class ="my-img">
-                        <img src="../resources/증명사진.png" width="250px">
+
+                    <div class="my-intro-a">
+                        <div class="my-img">
+                            <img src="../resource/증명사진.png">                           
+                        </div>
+                        <div class="a-a">
+                            <p>2002.1.5</p>
+                            <p>컴퓨터공학부</p>
+                            <p>24.02(졸업)</p>
+                        </div>
                     </div>
+
+
                 </div>
-              
 
             </section>
-            <section>
-                <h3>Career Experience</h3>
-                <div>
-                    <h4>Company Name</h4>
-                    <p>Job Title</p>
-                    <p>June 2020 - Present</p>
-                    <ul>
-                        <li>Implemented features...</li>
-                        <li>Lead a team of developers...</li>aa
-                    </ul>
+            <section class="strength">
+                
+                <div class="advantage">
+                    <div class="advantage-a">
+                        <h3>Advantages</h3>
+                        
+                        <h4>1. 협동심</h4>
+                        <p>다인원의 활동에서 주 핵심은 의사소통이라고 생각합니다. 저는 주로 팀원들의 의견을 하나로 합치고, 서로의 의견을 존중할 수 있도록 분위기를 조성하였습니다. 
+                            <br>
+                            협동심은 여러 의견들이 합쳐져서 하나의 결과가 잘 나올 수 있는 것이라고 생각하기 때문에 저는 이런 활동들에서 주로 조장을 맡아 먼저 의견을 내고, 의견을 묻는 
+                            과정을 통해 '주장'이라는 단어에 어려움을 느끼지 않도록 노력하였습니다.
+                        </p>
+                    </div>
+                    <div class="advantage-b">            
+                        <h4>2. 문제 해결 의지 </h4>
+                        <p>문제가 발생할 경우, 원인을 빨리 파악하고, 그 해결까지 도달할 수 있는 다양한 방향성을 고민하고 도전하려고 합니다.<br>
+                        예를들어, 이전 프로젝트에서 기능적인 문제로 서버에서 전달해준 값을 받지 못하는 오류가 발생하였을 때, 그 오류가 어디서 값을 주고 받을때 생기는 지부터 찾았습니다.<br>
+                        그리고 이를 해결하기 위해 팀과 협력하여 직접 데이터 전달하는 부분마다 값이 성공적으로 들어가는지 아닌지 확인하였고, 끈기 있게 찾은 결과 구조 자체에 문제가 생겼다는 것을 발견할 수 있었습니다.<br>
+                        이 경험은 저의 문제 해결 능력을 키울 수 있었습니다.
+                    
+                        </p>
+                   
+                    </div>
+                    <div class="advantage-c">            
+                        <h4>3. 계획적 </h4>
+                        <p>
+                        팀활동에서는 예기치 못한 상황들이 존재하기 때문에 유동적으로 스케줄을 구성하여 계획을 변경할 수 있도록 합니다.<br>
+                        저의 개인적인 공부나 스케줄에 대해서는 목표를 정확히 정해두고 이를 실천합니다. <br>
+                        이러한 계획성이 목표 달성에 효율적이여서 여러 면에서 좋은 영향을 주고 있다고 생각하고, 어떠한 상황에서도 최선의 결과를 이끌어 내는데 기여하고 있습니다.
+                        </p>
+                   
+                    </div>
                 </div>
+
+                
             </section>
-            <section>
-                <h3>Education</h3>
-                <div>  
-                    <h4>University Name</h4>
-                    <p>Bachelor of Science in Computer Science</p>
-                    <p>Graduated: 2019</p>
+            <section class="weakness">
+                
+                <div class="disadvantage">
+                    <div class="disadvantage-a">
+                        <h3>Disadvantages</h3>
+                        
+                        <h4>1. 성격이 급하다</h4>
+                        <p>평소 성격이 급하여, 문제를 빠르게 해결하는 대신 정확도가 떨어지는 경우가 많습니다.<br>
+                            그리고 해야 하는 목표가 생기면 빠르게 해결하고 다른 목표를 쌓고 싶어 급하게 마무리하는 경우도 있습니다.<br>
+                            또, 일정적으로 잘 풀어나아가지 않으면 그 계획에 대해 예민하게 반응하는 편입니다. <br>
+                            이런저의 단점을 고쳐 나아가고 싶어서, 단점에서 끌어당길 수 있는  
+                        </p>
+                    </div>
+                    <div class="disadvantage-b">            
+                        <h4>2. 문제 해결 의지 </h4>
+                        <p>문제가 발생할 경우, 원인을 빨리 파악하고, 그 해결까지 도달할 수 있는 다양한 방향성을 고민하고 도전하려고 합니다.<br>
+                        예를들어, 이전 프로젝트에서 기능적인 문제로 서버에서 전달해준 값을 받지 못하는 오류가 발생하였을 때, 그 오류가 어디서 값을 주고 받을때 생기는 지부터 찾았습니다.<br>
+                        그리고 이를 해결하기 위해 팀과 협력하여 직접 데이터 전달하는 부분마다 값이 성공적으로 들어가는지 아닌지 확인하였고, 끈기 있게 찾은 결과 구조 자체에 문제가 생겼다는 것을 발견할 수 있었습니다.<br>
+                        이 경험은 저의 문제 해결 능력을 키울 수 있었습니다.
+                    
+                        </p>
+                   
+                    </div>
+                   
                 </div>
-            </section>
-            <section>
-                <h3>Technical Skills</h3>
-                <ul>
-                    <li>JavaScript, HTML, CSS</li>
-                    <li>React, Node.js</li>
-                    <li>SQL, NoSQL</li>
-                </ul>
-            </section>
-            <section class ="footer">
-                <h3>Project Experience</h3>
-                <div>
-                    <h4>Project Name</h4>
-                    <p>Description of the project and your role...</p>
-                    <p>Technologies used: HTML, CSS, JavaScript</p>
-                </div>
+
+                
             </section>
         </div>
         <div></div>
-       
 
-         
-        
-        
-        
-    
+
+
+
+
+
+<!-- 기본 내용 채우고 글자 비율에 맞춰서 만들기  -->
     </div>
 </body>
 
