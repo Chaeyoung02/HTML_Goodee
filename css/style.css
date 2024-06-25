@@ -257,3 +257,58 @@ section div {
 .disadvantage-b > p {
   font-size: 2vw;
 }
+
+/* skills.html */
+.lenguage {
+  display: flex;
+}
+.skill > h3 {
+  font-size: 3vw;
+}
+figcaption {
+  font-size: 2vw;
+}
+
+.lenguage > div {
+  margin-right: 10%;
+}
+.lenguage > div > figure > img {
+  width: 6vw;
+}
+figure {
+  text-align: center;
+}
+.skill > h3 {
+  font-size: 2.5vw;
+}
+.framework > div {
+  margin-right: 10%;
+}
+.framework {
+  display: flex;
+}
+
+.framework > div > figure > img {
+  width: 6vw;
+}
+.database > div {
+  margin-right: 10%;
+}
+.database {
+  display: flex;
+}
+
+.database > div > figure > img {
+  width: 6vw;
+}
+
+.tool > div {
+  margin-right: 10%;
+}
+.tool {
+  display: flex;
+}
+
+.tool > div > figure > img {
+  width: 6vw;
+}
